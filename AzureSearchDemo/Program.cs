@@ -13,9 +13,9 @@ namespace AzureSearchDemo
         static void Main(string[] args)
         {
             var searchServiceName =
-                "hp007";
+                "YourServiceName";
             var apiKey =
-                "04469D812912F4EF2FC2C4D1CE22AF5B";
+                "YourApiKey";
 
             var searchClient =
                 new SearchServiceClient(
